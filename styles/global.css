@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--roboto);
+    box-sizing: border-box;
+}
+
+html, 
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+
+    --roboto: "Roboto", sans-serif;
+
+    /* -les colors*/
+
+    --colorbleu: #001A49;
+    --colornoir: #000;
+    --colorrouge: #EC0C0C;
+    --colorjaune: #F4EB0B;
+    --colorvert: #18E806;
+    --colorblanc: #ffff;
+
+    /*- Titre du logo*/
+    --fontsize: 22px;
+    --fontweight: 500;
+    
+   /* - Boutton Connexion*/
+    --fontweight-btn: 400;
+    --fontsize-btn: 18px;
+    
+    /*- CTA Noir et CTA Bleu*/
+    --fontweight-cta: 400;
+    --fontsize-cta: 18px;
+    
+    /*- Titre (section)*/
+    --fontweightitre : 700;
+    --fontsizetitre: 42px;
+ 
+    
+   /* - Paragraphe (section)*/
+    --fontweightpgs : 400;
+    --fontsizepgs: 24px;
+
+    
+   /* - Titre (card)*/
+    --fontweightcard: 500;
+    --fontsizecard: 22px;
+    
+   /* - Paragraphe (card)*/
+    --fontweightpc: 400;
+    --fontsizepc: 14px;
+ 
+    
+    /*- Liens (footer)*/
+    --fontweightfoot: 400;
+    --fontsizefoot: 18px;
+}
