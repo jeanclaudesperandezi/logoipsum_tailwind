@@ -7,36 +7,103 @@
     <link rel="stylesheet" href="/styles/global.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <!--debut de la section header-->
-    <header class="w-full h-[75px] border-b border-[bg-black]/20 flex justify-center items-center">
+    <header class="w-full h-[75px] border-b border-[var(--colornoir)]/20 flex justify-center items-center">
         <nav class="w-full max-w-[px] flex justify-between items-center px-[10px]">
             <div class="nav__logo">
-                <img src="/assert/img/logo-12 (1).svg" alt="logo" class="w-[150px] h-auto">
-                
+                <img src="/assert/img/logo-12 (1).svg" alt="logo" class="nav__logo-img w-[150px] h-auto">
             </div>
             <div class="flex gap-6">
                 <button class="px-5 py-2.5 text-[var(--fontsize-btn)] font-[var(--fontweight-btn)] border-none rounded-[10px] cursor-pointer transition-all duration-300">Connexion</button>
-                <button class="px-5 py-2.5 text-[var(--fontsize-btn)] font-[var(--fontweight-btn)] border-none rounded-[10px] cursor-pointer transition-all duration-300 bg-black hover:bg-black text-black">Essayer Logoipsum</button>
+                <button class="px-5 py-2.5 text-[var(--fontsize-btn)] font-[var(--fontweight-btn)] border-none rounded-[10px] cursor-pointer transition-all duration-300 bg-black text-white">Essayer Logoipsum</button>
             </div> 
-    
-        </nav>  
+           <!--<div class="nav__mobile-menu">
+                <img src="assert/img/menu.svg" alt="menu">
+            </div> --> 
+        </nav>
     </header>
+    <!--fin du header-->
 
-    <!--debut de la section main-->
-    <main class="">
-        <div class="">
-
+    <!-- debut de la section main-->
+     <main class="flex justify-between flex-1">
+        <div class="w-full max-w-6xl flex flex-col items-center justify-around px-5 py-2.5">
+        <!--debut de la section titre parag btn-->
+        <div class="flex flex-col gap-6 items-center justify-center">
+            <h1 class="text-4xl font-bold text-center">Organisez vos logos générer par <br>
+IA <span> rapidement, efficacement</span> .</h1>
+            <p class=" text-base font-normal text-center">Une application simple pour générer <br>
+tous vos logos rapidement avec IA</p>
+                <!-- <p class="text-base font-normal text-center">
+                    Gérer et retrouvez facilement  vos logos.
+                </p> -->
+            <input class="px-3.5 py-2.5 text-lg font-normal bg-sky-900 text-white border-0 rounded-md mb-5 hover:bg-sky-200" type="button" value="Essayer Logoipsum">
         </div>
-
-
-        <div class="">
-
+        <!--debut de la section card  -->
+        <div class="main__features">
+            <div class="main__feature main__feature-add">
+                <img src="assert/img/Vector (4).svg" alt="add" class="main__feature-icon">
+                <h3 class="main__feature-titre">Générer un logo</h3>
+                <p class="main__feature-des">Générer un nouveau logo  a votre <br>
+collection en un clic.</p>
+            </div>
+            <div class="main__feature main__feature-sort">
+                <img src="assert/img/Vector (5).svg" alt="sort" class="main__feature-icon">
+                <h3 class="main__feature-titre">Catégorie vos logos</h3>
+                <p class="main__feature-des">Organiser vos logos en catégorie <br>
+pour une gestion facile</p>
+            </div>
+            <div class="main__feature main__feature-command">
+                <img src="assert/img/Vector (6).svg" alt="commmand" class="main__feature-icon">
+                <h3 class="main__feature-titre">Gérer vos logos</h3>
+                <p class="main__feature-des">rechercher les logos spécifiques <br>
+modifier ou supprimer</p>
+            </div>
         </div>
-    </main>
+    </div> 
+     </main>
+     <!--fin de la section main-->
 
-    <!--debut de la section footer-->
+     <!--debut de la section footer-->
+     <footer class="footer">
+        <div class="footer__container"> 
+        <!-- debut des texts de mention-->
+        <div class="footer__legal">
+            <p class="footer__legal-item"> &copy; 2024 Logoipsum labs</p>
+            <p class="footer__legal-item">Mention légales</p>
+            <p class="footer__legal-item">Politique de confidentialité</p>
+        </div>
+        <!-- debut de la section du logo et des icons-->
+        <div class="footer__info">
+            <div class="footer__logo">
+                 <img src="assert/img/logo-12 (1).svg" alt="Logoipsum" class="footer__logo-img">
+            </div>
+        
+            <div class="footer__socials">
+                <a href="" class="footer__social-link">
+                    <img src="assert/img/Vector(x).svg" alt="Twitter" class="footer__social-icon">
+                </a>
+                <a href="" class="footer__social-link">
+                      <img src="assert/img/Vector (in).svg" alt="Linked" class="footer__social-icon">
+                </a>
+                <a href="" class="footer__social-link">
+                      <img src="assert/img/Vector (insta).svg" alt="Instagram" class="footer__social-icon">
+                </a>
+                <a href="" class="footer__social-link">
+
+                <img src="assert/img/Vector (fb).svg" alt="FaceBook" class="footer__social-icon">
+                </a>
+                <a href="" class="footer__social-link">
+                      <img src="assert/img/Vector (ytb).svg" alt="Youtube" class="footer__social-icon">
+                </a>
+ 
+            </div>
+        </div>
+        </div>        
+     </footer>
+     <!--fin de la section footer-->
 
 </body>
 </html>
