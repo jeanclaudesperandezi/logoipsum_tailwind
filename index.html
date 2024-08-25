@@ -11,52 +11,54 @@
 </head>
 <body>
     <!--debut du header-->
-    <header class="flex flex-row justify-around border-2">
+     <header class="flex flex-row justify-around items-center border-b-2 border-slate-950">
+        
             <div class="">
-                <img src="assert/img/logo-12 (1).svg" alt="logo" class="w-[80px] h-[30px]">
+                <img src="assert/img/logo-12 (1).svg" alt="logo" class="w-[90px] h-[30px] md:w-[200px] md:h-auto">
             </div>
-            <div class="hidden ">
-                <button class="">Connexion</button>
-                <button class="">Essayer Logoipsum</button>
+            <div class="hidden md:flex md:flex-row md:justify-around md:gap-4 mb-[15px] mt-[10px]">
+                <button class="border-2  border-transparent hover:bg-slate-300 md:px-[10px] md:py-[5px] md:rounded-[10px]">Connexion</button>
+                <button class="md:border-2  md:border-sky-950 md:bg-sky-950 md:rounded-[10px] md:px-[10px] md:py-[5px] md:hover:bg-sky-700">Essayer Logoipsum</button> 
             </div> 
            <div class="md:hidden">
                 <img src="assert/img/menu.svg" alt="menu">
             </div>
-        </nav>
+        
     </header>
     <!--fin du header-->
 
     <!-- debut de la section main-->
-     <main class="">
+     <main class="flex flex-col justify-center items-center text-center my-[30px]">
         <div class="">
         <!--debut de la section titre parag btn-->
-        <div class="066098189">
-            <h1 class="">Organisez vos logos générer par <br>
-IA <span> rapidement, efficacement</span> .</h1>
-            <p class=" ">Une application simple pour générer <b-y rqr>
-tous vos logos rapidement avec IA</p>
+        <div class="my-[20px] flex flex-col gap-[20px] items-center">
+            <h1 class="text-center text-[20px] font-bold md:text-[2rem] md:font-bold">Organisez vos logos générer par <br>
+                IA <span> rapidement, efficacement</span> .
+            </h1>
+            <p class=" text-center text-[16px] font-medium md:text-[18px] md:font-medium">Une application simple pour générer <br>
+                tous vos logos rapidement avec IA</p>
                 <!-- <p class="text-base font-normal text-center">
                     Gérer et retrouvez facilement  vos logos.
                 </p> -->
-            <input class="" type="button" value="Essayer Logoipsum">
+            <input class="border-2  border-sky-950 bg-sky-950 rounded-[10px] px-[10px] py-[5px] hover:bg-sky-700 w-[200px] items-center " type="button" value="Essayer Logoipsum">
         </div>
         <!--debut de la section card  -->
-        <div class=" grid grid-cols-3 gap-4 text-white">
+        <div class="flex flex-col md:grid md:grid-cols-3 gap-4 text-white">
             <div class="flex flex-col p-5 rounded-lg bg-red-700">
-                <img src="assert/img/Vector (4).svg" alt="add" class="w-14 h-auto">
-                <h3 class="text-xl font-bold">Générer un logo</h3>
+                <img src="assert/img/Vector (4).svg" alt="add" class="w-6 h-auto">
+                <h3 class="text-xl font-bold mt-[10px]">Générer un logo</h3>
                 <p class="text-sm font-normal">Générer un nouveau logo  a votre <br>
-collection en un clic.</p>
+                    collection en un clic.</p>
             </div>
             <div class="flex flex-col p-5 rounded-lg bg-yellow-400">
-                <img src="assert/img/Vector (5).svg" alt="sort" class="w-14 h-auto">
-                <h3 class="text-xl font-bold">Catégorie vos logos</h3>
+                <img src="assert/img/Vector (5).svg" alt="sort" class="w-6 h-auto">
+                <h3 class="text-xl font-bold mt-[10px]">Catégorie vos logos</h3>
                 <p class="text-sm font-normal">Organiser vos logos en catégorie <br>
 pour une gestion facile</p>
             </div>
             <div class="flex flex-col p-5 rounded-lg bg-green-500">
-                <img src="assert/img/Vector (6).svg" alt="commmand" class="w-14 header--">
-                <h3 class="text-xl font-bold">Gérer vos logos</h3>
+                <img src="assert/img/Vector (6).svg" alt="commmand" class="w-6 h-auto">
+                <h3 class="text-xl font-bold mt-[10px]">Gérer vos logos</h3>
                 <p class="text-sm font-normal">rechercher les logos spécifiques <br>
 modifier ou supprimer</p>
             </div>
@@ -66,10 +68,10 @@ modifier ou supprimer</p>
      <!--fin de la section main-->
 
      <!--debut de la section footer-->
-     <footer class="w-full min-h-40 flex justify-center text-white bg-black">
-        <div class="w-full max-w-6xl flex justify-between items-center px-5 py-0"> 
+     <footer class="w-full h-[300px] md:h-[500px] md:flex md:flex-row md:justify-center text-white bg-black flex flex-col">
+        <div class="w-full max-w-6xl md:flex  md:flex-row md:justify-between md:mx-[30px] items-center px-5 py-0 flex flex-col mb-[20px] "> 
         <!-- debut des texts de mention-->
-        <div class="flex gap-6">
+        <div class="min-md:flex min-md:flex-col lg:flex lg:flex-row gap-6 flex flex-col my-[15px]">
             <p class="footer__legal-item"> &copy; 2024 Logoipsum labs</p>
             <p class="footer__legal-item">Mention légales</p>
             <p class="footer__legal-item">Politique de confidentialité</p>
@@ -77,7 +79,7 @@ modifier ou supprimer</p>
         <!-- debut de la section du logo et des icons-->
         <div class="flex flex-col gap-5">
             <div class="flex items-center gap-5">
-                 <img src="assert/img/logo-12 (1).svg" alt="Logoipsum" class="w-full h-auto">
+                 <img src="assert/img/logo-12 (1).svg" alt="Logoipsum" class="md:w-full md:h-auto">
             </div>
         
             <div class="w-full justify-between flex">
@@ -97,7 +99,6 @@ modifier ou supprimer</p>
                 <a href="" class="flex items-center gap-3.5">
                       <img src="assert/img/Vector (ytb).svg" alt="Youtube" class="w-6 h-6">
                 </a>
- 
             </div>
         </div>
         </div>        
